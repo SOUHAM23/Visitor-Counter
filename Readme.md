@@ -87,18 +87,18 @@ The system is designed for a single doorway. Two ultrasonic sensors (Sensor 1 an
   * VCC \-\> 3.3V  
   * GND \-\> GND  
 * **Ultrasonic Sensor 1 (IN-Sensor):**  
-  * TRIG \-\> GPIO\_PIN\_X  
-  * ECHO \-\> GPIO\_PIN\_Y  
-  * VCC \-\> 5V  
+  * TRIG \-\> GPIO\_PIN\_2  
+  * ECHO \-\> GPIO\_PIN\_4  
+  * VCC \-\> 3.3V  
   * GND \-\> GND  
 * **Ultrasonic Sensor 2 (OUT-Sensor):**  
-  * TRIG \-\> GPIO\_PIN\_A  
-  * ECHO \-\> GPIO\_PIN\_B  
-  * VCC \-\> 5V  
+  * TRIG \-\> GPIO\_PIN\_17  
+  * ECHO \-\> GPIO\_PIN\_16  
+  * VCC \-\> 3.3V  
   * GND \-\> GND  
 * **Relay Module:**  
-  * IN \-\> GPIO\_PIN\_R  
-  * VCC \-\> 5V  
+  * IN \-\> GPIO\_PIN\_13  
+  * VCC \-\> 3.3V  
   * GND \-\> GND  
 * **Relay (High Voltage Side):**  
   * Connect the COM and NO (Normally Open) terminals in series with your light bulb's AC power line.  
